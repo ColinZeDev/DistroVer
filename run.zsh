@@ -1,11 +1,5 @@
 #!/bin/zsh
 
-VENV_PY="$(pwd)/.venv/bin/python"
+echo "Running: $(pwd)/.venv/bin/python main.py"
 
-CURRENT_PY="$(command -v python)"
-
-if [[ "$CURRENT_PY" != "$VENV_PY" ]]; then
-    echo "activate the fucking venv"
-else
-    "$VENV_PY" "$(pwd)/main.py"
-fi
+$(pwd)/.venv/bin/python main.py
