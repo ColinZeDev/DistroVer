@@ -7,7 +7,7 @@ Here is how it looks if run on a Debian Linux machine!:<br><br>
 ![debian example](https://raw.githubusercontent.com/ColinZeDev/DistroVer/refs/heads/main/example.png)
 
 ---
-### TODO:
+### TO DO:
 - [ ] Add more distro icons
 - [ ] Add icons for '**BSD**' systems (ex: FreeBSD)
 - [x] Switch the gui from tkinter to something like qml with pyside6
