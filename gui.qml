@@ -44,17 +44,6 @@ ApplicationWindow {
             Layout.alignment: Qt.AlignHCenter
             Layout.fillWidth: true
         }
-
-        /*
-        Button {
-            text: "DistroVer Source Code"
-            Layout.alignment: Qt.AlignHCenter
-
-            onClicked: {
-                Qt.openUrlExternally("https://github.com/ColinZeDev/DistroVer")
-            }
-        }
-        */
     }
 
     background: Rectangle { color: "#ffffff" }
