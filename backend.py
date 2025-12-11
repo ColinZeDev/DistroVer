@@ -1,5 +1,5 @@
 from PySide6.QtCore import QObject, Property
-import platform
+import subprocess
 import distro
 import json
 import os
@@ -32,6 +32,7 @@ class Backend(QObject):
         codename = distro.codename() or "[Unknown]"
         hostname = os.uname().nodename
         username = os.environ.get("USER") or os.environ.get("USERNAME")
+        kernel = subprocess.check_output(['uname', '-r']).decode()
 
         self._logo = get_distro_logo()
 
@@ -40,7 +41,7 @@ class Backend(QObject):
             f"Version {version} ({codename})\n\n"
             f"Host name: {hostname}\n\n"
             f"Username: {username}\n\n"
-            f"Kernel: {platform.release()}\n\n"
+            f"Kernel: {kernel}\n\n"
         )
 
         self._version = "0.0.2"
