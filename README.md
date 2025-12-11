@@ -10,4 +10,6 @@ Here is how it looks if run on a Debian Linux machine!:<br><br>
 ### TODO:
 - [ ] Add more distro icons
 - [ ] Add icons for '**BSD**' systems (ex: FreeBSD)
-- [ ] Switch the gui from tkinter to something like qml with pyside6
+- [x] Switch the gui from tkinter to something like qml with pyside6
+- [x] Convert the gifs to pngs
+- [ ] Add more system info
