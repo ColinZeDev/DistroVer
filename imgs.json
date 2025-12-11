@@ -1,0 +1,15 @@
+{
+    "debian": "img/debian.png",
+    "arch": "img/arch.png",
+    "ubuntu": "img/ubuntu.png",
+    "fedora": "img/fedora.png",
+    "rhel": "img/rhel.png",
+    "opensuse": "img/opensuse.png",
+    "gentoo": "img/gentoo.png",
+    "linuxmint": "img/linuxmint.png",
+    "pidora": "img/pidora.png",
+    "raspbian": "img/raspbian.png",
+    "rocky": "img/rocky.png",
+    "nixos": "img/nixos.png",
+    "kali": "img/kali.png"
+}
